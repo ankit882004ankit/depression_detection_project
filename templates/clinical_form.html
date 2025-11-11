@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Clinical Data Input</title>
+    <link rel="stylesheet" href="/static/styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Clinical Information</h2>
+        <form action="/process_data" method="post" class="clinical-form">
+            <input type="hidden" name="temp_file" value="{{ temp_file }}">
+            
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required min="0" max="100" value="{{ prefill.get('age','') if prefill is defined else '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="0" {% if prefill.get('gender') is defined and prefill.get('gender') == 0 %}selected{% endif %}>Male</option>
+                    <option value="1" {% if prefill.get('gender') is defined and prefill.get('gender') == 1 %}selected{% endif %}>Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="education">Education (years):</label>
+                <input type="number" id="education" name="education" required min="0" max="30" value="{{ prefill.get('education','') if prefill is defined else '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="phq9">PHQ-9 Score:</label>
+                <input type="number" id="phq9" name="phq9" required min="0" max="27" value="{{ prefill.get('phq9','') if prefill is defined else '' }}">
+                <span class="hint">Depression severity (0-27)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="ctq">CTQ Score:</label>
+                <input type="number" id="ctq" name="ctq" required min="25" max="125" value="{{ prefill.get('ctq','') if prefill is defined else '' }}">
+                <span class="hint">Childhood Trauma Questionnaire (25-125)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="les">LES Score:</label>
+                <input type="number" id="les" name="les" required value="{{ prefill.get('les','') if prefill is defined else '' }}">
+                <span class="hint">Life Events Scale score</span>
+            </div>
+
+            <div class="form-group">
+                <label for="ssrs">SSRS Score:</label>
+                <input type="number" id="ssrs" name="ssrs" required min="0" max="60" value="{{ prefill.get('ssrs','') if prefill is defined else '' }}">
+                <span class="hint">Social Support Rating Scale (0-60)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="gad7">GAD-7 Score:</label>
+                <input type="number" id="gad7" name="gad7" required min="0" max="21" value="{{ prefill.get('gad7','') if prefill is defined else '' }}">
+                <span class="hint">Anxiety severity (0-21)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="psqi">PSQI Score:</label>
+                <input type="number" id="psqi" name="psqi" required min="0" max="21" value="{{ prefill.get('psqi','') if prefill is defined else '' }}">
+                <span class="hint">Sleep quality (0-21)</span>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit">Analyze</button>
+                <a href="/" class="back-link">← Start Over</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

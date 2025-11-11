@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="/static/styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>Analysis Result</h2>
+        <div class="prediction-result">
+            <!-- ARIA live region for screen readers (populated via JS to ensure announcement) -->
+            <div id="result-announcer" role="status" aria-live="polite" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" aria-atomic="true"></div>
+
+            <div id="prediction-label" class="prediction-label {% if pred == 'MDD' %}prediction-mdd{% else %}prediction-hc{% endif %}" aria-hidden="true">
+                {{ pred }}
+            </div>
+            <div class="clinical-features">
+                <h3>Clinical Features</h3>
+                <table>
+                    <tr>
+                        <td><strong>Age:</strong></td>
+                        <td>{{ result['age'] }}</td>
+                        <td><strong>PHQ-9:</strong></td>
+                        <td>{{ result['phq9'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gender:</strong></td>
+                        <td>{{ 'Female' if result['gender'] == 1 else 'Male' }}</td>
+                        <td><strong>CTQ:</strong></td>
+                        <td>{{ result['ctq'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Education:</strong></td>
+                        <td>{{ result['education'] }} years</td>
+                        <td><strong>LES:</strong></td>
+                        <td>{{ result['les'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SSRS:</strong></td>
+                        <td>{{ result['ssrs'] }}</td>
+                        <td><strong>GAD-7:</strong></td>
+                        <td>{{ result['gad7'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PSQI:</strong></td>
+                        <td>{{ result['psqi'] }}</td>
+                        {% if result['prob_MDD'] is not none %}
+                        <td><strong>MDD Probability:</strong></td>
+                        <td>{{ "%.1f"|format(result['prob_MDD'] * 100) }}%</td>
+                        {% endif %}
+                    </tr>
+                </table>
+            </div>
+            
+            <div style="margin-top:1.25rem">
+                <a href="/" class="back-link">← Analyze Another File</a>
+            </div>
+
+            {# Guidance block: non-prescriptive, encourage professional help, crisis resources #}
+            {% if pred == 'MDD' %}
+            <div style="margin-top:1.75rem;padding:1rem;border-radius:0.6rem;background:#fff7f7;border:1px solid #fee2e2;color:#7f1d1d;">
+                <h3 style="margin-bottom:0.5rem">Next steps and support</h3>
+                <p style="margin-bottom:0.5rem;color:#7f1d1d;">This result suggests possible Major Depressive Disorder (MDD). This is not a diagnosis — please consult a qualified healthcare professional for a full assessment.</p>
+                <ul style="margin-left:1.25rem;color:#7f1d1d">
+                    <li>Contact your primary care doctor or a mental health specialist (psychiatrist/psychologist) for evaluation.</li>
+                    <li>Consider evidence-based therapies such as cognitive-behavioral therapy (CBT).</li>
+                    <li>Medication options may be discussed by a prescribing clinician when appropriate.</li>
+                    <li>Supportive steps: maintain regular sleep, moderate exercise, balanced nutrition, and stay connected with trusted people.</li>
+                </ul>
+                <p style="margin-top:0.5rem;font-weight:600">If you are in immediate danger or having thoughts of harming yourself, call your local emergency number or a suicide prevention hotline immediately.</p>
+            </div>
+            {% else %}
+            <div style="margin-top:1.5rem;padding:1rem;border-radius:0.6rem;background:#f0fdf4;border:1px solid #bbf7d0;color:#065f46;">
+                <h3 style="margin-bottom:0.4rem">Patient status</h3>
+                <p style="margin:0">This result indicates the patient appears to be Healthy (HC). Continue routine wellness practices and seek evaluation if new symptoms appear.</p>
+            </div>
+            {% endif %}
+        </div>
+
+        <script>
+            // Trigger animation and announce result for screen readers
+            document.addEventListener('DOMContentLoaded', function () {
+                var label = document.getElementById('prediction-label');
+                var announcer = document.getElementById('result-announcer');
+                // small timeout so transitions are visible after render
+                setTimeout(function(){
+                    if (label) label.classList.add('animate');
+                    // populate announcer so screen readers read the new content
+                    if (announcer) {
+                        // keep the announcement text concise
+                        announcer.textContent = 'Prediction: ' + (label ? label.textContent.trim() : 'Result available');
+                    }
+                }, 80);
+            });
+        </script>
+    </div>
+</body>
+</html>

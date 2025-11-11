@@ -1,0 +1,945 @@
+[2025-10-24 20:06:05,804] INFO: Loaded model from model.pkl
+[2025-10-24 20:06:05,806] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 10:57:45,680] INFO: Loaded model from model.pkl
+[2025-10-25 10:57:45,683] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 10:57:47,358] INFO: Loaded model from model.pkl
+[2025-10-25 10:57:47,360] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:00:44,692] INFO: Loaded model from model.pkl
+[2025-10-25 11:00:44,694] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:00:46,147] INFO: Loaded model from model.pkl
+[2025-10-25 11:00:46,149] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:01:08,235] INFO: Received upload_single request
+[2025-10-25 11:01:08,306] INFO: Saving uploaded file to: uploads\20251025110108_e7a73d1d_02010030_still.xlsx
+[2025-10-25 11:01:08,326] DEBUG: Reading Excel: uploads\20251025110108_e7a73d1d_02010030_still.xlsx
+[2025-10-25 11:01:18,034] DEBUG: Numeric columns found: [9, 937556, 1103108]
+[2025-10-25 11:01:18,037] DEBUG: Computed means: [1731980.78192246 1600057.04613785 2432132.00458194] for channels [9, 937556, 1103108]
+[2025-10-25 11:01:18,043] ERROR: Exception in upload_single: unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\app.py", line 116, in upload_single
+    ch[0]+"_mean": float(means[0]),
+    ~~~~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[2025-10-25 11:03:51,455] INFO: Loaded model from model.pkl
+[2025-10-25 11:03:51,457] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:03:52,903] INFO: Loaded model from model.pkl
+[2025-10-25 11:03:52,905] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:04:49,134] INFO: Received upload_single request
+[2025-10-25 11:04:49,210] INFO: Saving uploaded file to: uploads\20251025110449_57bac799_02010003_still.xlsx
+[2025-10-25 11:04:49,234] DEBUG: Reading Excel: uploads\20251025110449_57bac799_02010003_still.xlsx
+[2025-10-25 11:04:58,273] DEBUG: Numeric columns found: [2286463, 2189118, 1888561]
+[2025-10-25 11:04:58,276] DEBUG: Computed means: [1343902.45991355 1196011.32805736 1023709.46500414] for channels [2286463, 2189118, 1888561]
+[2025-10-25 11:04:58,281] ERROR: Exception in upload_single: unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\app.py", line 116, in upload_single
+    ch[0]+"_mean": float(means[0]),
+    ~~~~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[2025-10-25 11:06:30,094] INFO: Loaded model from model.pkl
+[2025-10-25 11:06:30,096] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:07:18,518] INFO: Loaded model from model.pkl
+[2025-10-25 11:07:18,520] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:08:36,882] INFO: Loaded model from model.pkl
+[2025-10-25 11:08:36,884] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:08:38,400] INFO: Loaded model from model.pkl
+[2025-10-25 11:08:38,402] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:08:46,506] INFO: Received upload_single request
+[2025-10-25 11:08:46,557] INFO: Saving uploaded file to: uploads\20251025110846_697c4204_02010003_still.xlsx
+[2025-10-25 11:08:46,571] DEBUG: Reading Excel: uploads\20251025110846_697c4204_02010003_still.xlsx
+[2025-10-25 11:08:55,335] DEBUG: Numeric columns found: [2286463, 2189118, 1888561]
+[2025-10-25 11:08:55,339] DEBUG: Computed means: [1343902.45991355 1196011.32805736 1023709.46500414] for channels ['2286463', '2189118', '1888561']
+[2025-10-25 11:08:55,368] INFO: Saved result to: results\result_20251025110846_697c4204.csv
+[2025-10-25 11:09:38,391] INFO: Received upload_single request
+[2025-10-25 11:09:38,459] INFO: Saving uploaded file to: uploads\20251025110938_50699503_02020025_still.xlsx
+[2025-10-25 11:09:38,480] DEBUG: Reading Excel: uploads\20251025110938_50699503_02020025_still.xlsx
+[2025-10-25 11:09:47,280] DEBUG: Numeric columns found: [1241864, 1860359, 1565168]
+[2025-10-25 11:09:47,283] DEBUG: Computed means: [2388577.50893205 2381695.93287572 2621782.048628  ] for channels ['1241864', '1860359', '1565168']
+[2025-10-25 11:09:47,292] INFO: Saved result to: results\result_20251025110938_50699503.csv
+[2025-10-25 11:10:02,088] INFO: Received upload_single request
+[2025-10-25 11:10:02,167] INFO: Saving uploaded file to: uploads\20251025111002_826ea47f_02010001_still.xlsx
+[2025-10-25 11:10:02,188] DEBUG: Reading Excel: uploads\20251025111002_826ea47f_02010001_still.xlsx
+[2025-10-25 11:10:10,863] DEBUG: Numeric columns found: [4297790, 4797719, 3754634]
+[2025-10-25 11:10:10,866] DEBUG: Computed means: [2805278.382231   3170684.11985192 2044614.68893978] for channels ['4297790', '4797719', '3754634']
+[2025-10-25 11:10:10,873] INFO: Saved result to: results\result_20251025111002_826ea47f.csv
+[2025-10-25 11:10:24,289] INFO: Received upload_single request
+[2025-10-25 11:10:24,378] INFO: Saving uploaded file to: uploads\20251025111024_aba82129_02020016_still.xlsx
+[2025-10-25 11:10:24,399] DEBUG: Reading Excel: uploads\20251025111024_aba82129_02020016_still.xlsx
+[2025-10-25 11:10:33,203] DEBUG: Numeric columns found: [338243, 443683, 400407]
+[2025-10-25 11:10:33,206] DEBUG: Computed means: [447688.34156575 262290.70374311 420608.85626236] for channels ['338243', '443683', '400407']
+[2025-10-25 11:10:33,214] INFO: Saved result to: results\result_20251025111024_aba82129.csv
+[2025-10-25 11:12:57,633] INFO: Loaded model from model.pkl
+[2025-10-25 11:12:57,633] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:12:57,634] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:12:57,636] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:02,705] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:02,706] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:02,707] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:02,707] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:02,708] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:02,708] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:02,709] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:02,710] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:14,027] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:14,028] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:14,028] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:14,029] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:14,029] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:14,031] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:20,117] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:20,118] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:20,119] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:20,121] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:20,146] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:20,147] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:20,148] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:20,150] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:26,248] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:26,248] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:26,249] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:26,251] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:26,293] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:26,293] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:26,294] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:26,296] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:46,928] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:46,929] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:46,930] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:46,932] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:13:46,958] INFO: Loaded model from model.pkl
+[2025-10-25 11:13:46,958] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:13:46,959] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:13:46,960] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:14:25,603] INFO: Loaded model from model.pkl
+[2025-10-25 11:14:25,603] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:14:25,604] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:14:25,605] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:14:27,077] INFO: Loaded model from model.pkl
+[2025-10-25 11:14:27,078] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:14:27,078] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:14:27,080] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:14:37,235] INFO: Received upload_single request
+[2025-10-25 11:14:37,300] INFO: Saving uploaded file to: uploads\20251025111437_0f92f8e4_02010005_still.xlsx
+[2025-10-25 11:14:37,322] DEBUG: Reading Excel: uploads\20251025111437_0f92f8e4_02010005_still.xlsx
+[2025-10-25 11:14:46,299] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 11:14:46,302] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 11:14:46,303] DEBUG: Feature vector (means): [4536625.939729898, 4778846.192831038, 4639431.625363441]
+[2025-10-25 11:14:46,303] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:14:46,308] DEBUG: Predict_proba: 0.43424426212333794
+[2025-10-25 11:14:46,308] INFO: Prediction: HC (raw=0)
+[2025-10-25 11:14:46,317] INFO: Saved result to: results\result_20251025111437_0f92f8e4.csv
+[2025-10-25 11:14:56,227] INFO: Received upload_single request
+[2025-10-25 11:14:56,288] INFO: Saving uploaded file to: uploads\20251025111456_28cd4c70_02030021_still.xlsx
+[2025-10-25 11:14:56,309] DEBUG: Reading Excel: uploads\20251025111456_28cd4c70_02030021_still.xlsx
+[2025-10-25 11:15:04,438] DEBUG: Numeric columns found: [2414559, 2619715, 2705717]
+[2025-10-25 11:15:04,441] DEBUG: Computed means: [1547368.42066303 1510034.63172749 1737906.44021371] for channels ['2414559', '2619715', '2705717']
+[2025-10-25 11:15:04,443] DEBUG: Feature vector (means): [1547368.4206630317, 1510034.631727491, 1737906.4402137143]
+[2025-10-25 11:15:04,444] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:15:04,449] DEBUG: Predict_proba: 0.21209266573338167
+[2025-10-25 11:15:04,449] INFO: Prediction: HC (raw=0)
+[2025-10-25 11:15:04,453] INFO: Saved result to: results\result_20251025111456_28cd4c70.csv
+[2025-10-25 11:15:14,571] INFO: Received upload_single request
+[2025-10-25 11:15:14,594] INFO: Saving uploaded file to: uploads\20251025111514_5b9d0507_02010005_still.xlsx
+[2025-10-25 11:15:14,615] DEBUG: Reading Excel: uploads\20251025111514_5b9d0507_02010005_still.xlsx
+[2025-10-25 11:15:22,807] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 11:15:22,811] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 11:15:22,812] DEBUG: Feature vector (means): [4536625.939729898, 4778846.192831038, 4639431.625363441]
+[2025-10-25 11:15:22,812] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:15:22,815] DEBUG: Predict_proba: 0.43424426212333794
+[2025-10-25 11:15:22,816] INFO: Prediction: HC (raw=0)
+[2025-10-25 11:15:22,818] INFO: Saved result to: results\result_20251025111514_5b9d0507.csv
+[2025-10-25 11:18:55,305] INFO: Loaded model from model.pkl
+[2025-10-25 11:18:55,305] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:18:55,306] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:18:55,308] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:18:55,826] INFO: Loaded model from model.pkl
+[2025-10-25 11:18:55,826] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:18:55,827] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:18:55,829] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:18:55,883] INFO: Loaded model from model.pkl
+[2025-10-25 11:18:55,883] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:18:55,884] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:18:55,886] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:18:59,837] INFO: Loaded model from model.pkl
+[2025-10-25 11:18:59,838] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:18:59,838] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:18:59,840] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:18:59,875] INFO: Loaded model from model.pkl
+[2025-10-25 11:18:59,876] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:18:59,876] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:18:59,878] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:19:00,358] INFO: Loaded model from model.pkl
+[2025-10-25 11:19:00,359] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:19:00,359] INFO: Ensemble estimators: ['tuple', 'tuple', 'tuple']
+[2025-10-25 11:19:00,361] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:27:27,009] INFO: Loaded model from model.pkl
+[2025-10-25 11:27:27,009] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:27:27,011] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:27:28,381] INFO: Loaded model from model.pkl
+[2025-10-25 11:27:28,382] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 11:27:28,384] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 11:27:36,290] INFO: Received upload_single request
+[2025-10-25 11:27:36,329] INFO: Saving uploaded file to: uploads\20251025112736_988950b3_02010003_still.xlsx
+[2025-10-25 11:27:36,347] DEBUG: Reading Excel: uploads\20251025112736_988950b3_02010003_still.xlsx
+[2025-10-25 11:27:44,928] DEBUG: Numeric columns found: [2286463, 2189118, 1888561]
+[2025-10-25 11:27:44,932] DEBUG: Computed means: [1343902.45991355 1196011.32805736 1023709.46500414] for channels ['2286463', '2189118', '1888561']
+[2025-10-25 11:27:44,935] DEBUG: Feature vector (means): [1343902.4599135453, 1196011.3280573585, 1023709.4650041395]
+[2025-10-25 11:27:44,935] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:27:44,938] DEBUG: Predict_proba: 0.0
+[2025-10-25 11:27:44,939] INFO: Prediction: HC (raw=0)
+[2025-10-25 11:27:44,944] INFO: Saved result to: results\result_20251025112736_988950b3.csv
+[2025-10-25 11:27:55,117] INFO: Received upload_single request
+[2025-10-25 11:27:55,181] INFO: Saving uploaded file to: uploads\20251025112755_89ed3164_02030020_still.xlsx
+[2025-10-25 11:27:55,203] DEBUG: Reading Excel: uploads\20251025112755_89ed3164_02030020_still.xlsx
+[2025-10-25 11:28:03,734] DEBUG: Numeric columns found: [4741631, 4751791, 4556558]
+[2025-10-25 11:28:03,737] DEBUG: Computed means: [4211086.08872919 4018961.63090634 3877818.61595605] for channels ['4741631', '4751791', '4556558']
+[2025-10-25 11:28:03,739] DEBUG: Feature vector (means): [4211086.088729192, 4018961.630906345, 3877818.615956052]
+[2025-10-25 11:28:03,739] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:28:03,742] DEBUG: Predict_proba: 0.6666666666666666
+[2025-10-25 11:28:03,743] INFO: Prediction: MDD (raw=1)
+[2025-10-25 11:28:03,746] INFO: Saved result to: results\result_20251025112755_89ed3164.csv
+[2025-10-25 11:29:03,260] INFO: Received upload_single request
+[2025-10-25 11:29:03,337] INFO: Saving uploaded file to: uploads\20251025112903_3573fb22_02010009_still.xlsx
+[2025-10-25 11:29:03,359] DEBUG: Reading Excel: uploads\20251025112903_3573fb22_02010009_still.xlsx
+[2025-10-25 11:29:12,513] DEBUG: Numeric columns found: [2749336, 2854366, 2773939]
+[2025-10-25 11:29:12,516] DEBUG: Computed means: [2313682.83957757 2330761.97008833 2228330.26389663] for channels ['2749336', '2854366', '2773939']
+[2025-10-25 11:29:12,519] DEBUG: Feature vector (means): [2313682.83957757, 2330761.9700883306, 2228330.263896628]
+[2025-10-25 11:29:12,520] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:29:12,523] DEBUG: Predict_proba: 0.3333333333333333
+[2025-10-25 11:29:12,523] INFO: Prediction: HC (raw=0)
+[2025-10-25 11:29:12,525] INFO: Saved result to: results\result_20251025112903_3573fb22.csv
+[2025-10-25 11:29:21,088] INFO: Received upload_single request
+[2025-10-25 11:29:21,111] INFO: Saving uploaded file to: uploads\20251025112921_a6f1c4f4_02030020_still.xlsx
+[2025-10-25 11:29:21,132] DEBUG: Reading Excel: uploads\20251025112921_a6f1c4f4_02030020_still.xlsx
+[2025-10-25 11:29:29,593] DEBUG: Numeric columns found: [4741631, 4751791, 4556558]
+[2025-10-25 11:29:29,597] DEBUG: Computed means: [4211086.08872919 4018961.63090634 3877818.61595605] for channels ['4741631', '4751791', '4556558']
+[2025-10-25 11:29:29,598] DEBUG: Feature vector (means): [4211086.088729192, 4018961.630906345, 3877818.615956052]
+[2025-10-25 11:29:29,598] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 11:29:29,601] DEBUG: Predict_proba: 0.6666666666666666
+[2025-10-25 11:29:29,602] INFO: Prediction: MDD (raw=1)
+[2025-10-25 11:29:29,604] INFO: Saved result to: results\result_20251025112921_a6f1c4f4.csv
+[2025-10-25 13:55:44,681] INFO: Loaded model from model.pkl
+[2025-10-25 13:55:44,682] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 13:55:44,688] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 13:55:47,750] INFO: Loaded model from model.pkl
+[2025-10-25 13:55:47,751] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 13:55:47,755] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 13:55:57,131] INFO: Received upload_single request
+[2025-10-25 13:55:57,357] INFO: Saving uploaded file to: uploads\20251025135557_26ddbd94_02010003_still.xlsx
+[2025-10-25 13:55:57,397] DEBUG: Reading Excel: uploads\20251025135557_26ddbd94_02010003_still.xlsx
+[2025-10-25 13:56:16,881] DEBUG: Numeric columns found: [2286463, 2189118, 1888561]
+[2025-10-25 13:56:16,887] DEBUG: Computed means: [1343902.45991355 1196011.32805736 1023709.46500414] for channels ['2286463', '2189118', '1888561']
+[2025-10-25 13:56:16,892] DEBUG: Feature vector (means): [1343902.4599135453, 1196011.3280573585, 1023709.4650041395]
+[2025-10-25 13:56:16,893] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 13:56:16,901] DEBUG: Predict_proba: 0.0
+[2025-10-25 13:56:16,902] INFO: Prediction: HC (raw=0)
+[2025-10-25 13:56:16,910] INFO: Saved result to: results\result_20251025135557_26ddbd94.csv
+[2025-10-25 13:56:46,339] INFO: Received upload_single request
+[2025-10-25 13:56:46,538] INFO: Saving uploaded file to: uploads\20251025135646_bd9a5e69_02030020_still.xlsx
+[2025-10-25 13:56:46,580] DEBUG: Reading Excel: uploads\20251025135646_bd9a5e69_02030020_still.xlsx
+[2025-10-25 13:57:04,745] DEBUG: Numeric columns found: [4741631, 4751791, 4556558]
+[2025-10-25 13:57:04,751] DEBUG: Computed means: [4211086.08872919 4018961.63090634 3877818.61595605] for channels ['4741631', '4751791', '4556558']
+[2025-10-25 13:57:04,756] DEBUG: Feature vector (means): [4211086.088729192, 4018961.630906345, 3877818.615956052]
+[2025-10-25 13:57:04,757] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 13:57:04,764] DEBUG: Predict_proba: 0.6666666666666666
+[2025-10-25 13:57:04,765] INFO: Prediction: MDD (raw=1)
+[2025-10-25 13:57:04,769] INFO: Saved result to: results\result_20251025135646_bd9a5e69.csv
+[2025-10-25 13:57:30,662] INFO: Received upload_single request
+[2025-10-25 13:57:30,856] INFO: Saving uploaded file to: uploads\20251025135730_c8f08d20_02020019_still.xlsx
+[2025-10-25 13:57:30,903] DEBUG: Reading Excel: uploads\20251025135730_c8f08d20_02020019_still.xlsx
+[2025-10-25 13:57:49,299] DEBUG: Numeric columns found: [5976078, 5814859, 5990484]
+[2025-10-25 13:57:49,306] DEBUG: Computed means: [4166134.03705692 4137936.03010813 4104450.18981771] for channels ['5976078', '5814859', '5990484']
+[2025-10-25 13:57:49,311] DEBUG: Feature vector (means): [4166134.037056919, 4137936.0301081254, 4104450.1898177145]
+[2025-10-25 13:57:49,313] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 13:57:49,321] DEBUG: Predict_proba: 0.6666666666666666
+[2025-10-25 13:57:49,321] INFO: Prediction: MDD (raw=1)
+[2025-10-25 13:57:49,328] INFO: Saved result to: results\result_20251025135730_c8f08d20.csv
+[2025-10-25 14:02:35,369] INFO: Loaded model from model.pkl
+[2025-10-25 14:02:35,370] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:02:35,374] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:02:38,431] INFO: Loaded model from model.pkl
+[2025-10-25 14:02:38,432] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:02:38,436] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:02:47,091] INFO: Received upload_single request
+[2025-10-25 14:02:47,303] INFO: Saving uploaded file to: uploads\20251025140247_19ff1cc2_02010005_still.xlsx
+[2025-10-25 14:02:47,343] DEBUG: Reading Excel: uploads\20251025140247_19ff1cc2_02010005_still.xlsx
+[2025-10-25 14:03:05,103] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 14:03:05,109] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 14:03:05,110] DEBUG: Feature vector (means): [4536625.939729898, 4778846.192831038, 4639431.625363441]
+[2025-10-25 14:03:05,111] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 14:03:05,118] DEBUG: Predict_proba: 0.6666666666666666
+[2025-10-25 14:03:05,118] INFO: Prediction: MDD (raw=1)
+[2025-10-25 14:03:05,142] INFO: Saved result to: results\result_20251025140247_19ff1cc2.csv
+[2025-10-25 14:05:38,937] INFO: Loaded model from model.pkl
+[2025-10-25 14:05:38,938] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:05:38,942] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:05:42,119] INFO: Loaded model from model.pkl
+[2025-10-25 14:05:42,120] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:05:42,125] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:07:12,000] INFO: Loaded model from model.pkl
+[2025-10-25 14:07:12,001] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:07:12,005] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:07:15,116] INFO: Loaded model from model.pkl
+[2025-10-25 14:07:15,116] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:07:15,120] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:07:25,864] INFO: Received upload_single request
+[2025-10-25 14:07:26,040] INFO: Saving uploaded file to: uploads\20251025140726_674958ca_02020027_still.xlsx
+[2025-10-25 14:07:26,090] DEBUG: Reading Excel: uploads\20251025140726_674958ca_02020027_still.xlsx
+[2025-10-25 14:07:44,305] DEBUG: Numeric columns found: [5824443, 5804622, 5731526]
+[2025-10-25 14:07:44,312] DEBUG: Computed means: [4518863.87728054 4418118.60366549 4309180.67695203] for channels ['5824443', '5804622', '5731526']
+[2025-10-25 14:07:44,317] DEBUG: Feature vector (means): [4518863.877280541, 4418118.603665491, 4309180.6769520305]
+[2025-10-25 14:07:44,318] DEBUG: Feature array shape: (1, 3)
+[2025-10-25 14:07:44,322] DEBUG: Predict_proba: 0.6666666666666666
+[2025-10-25 14:07:44,322] INFO: Prediction: MDD (raw=1)
+[2025-10-25 14:07:44,328] INFO: Saved result to: results\result_20251025140726_674958ca.csv
+[2025-10-25 14:17:17,752] INFO: Loaded model from model.pkl
+[2025-10-25 14:17:17,753] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:17:17,756] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:17:17,950] INFO: Loaded model from model.pkl
+[2025-10-25 14:17:17,951] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:17:17,955] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:17:18,077] INFO: Loaded model from model.pkl
+[2025-10-25 14:17:18,078] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:17:18,082] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:17:37,987] INFO: Loaded model from model.pkl
+[2025-10-25 14:17:37,987] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:17:37,991] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:17:38,188] INFO: Loaded model from model.pkl
+[2025-10-25 14:17:38,189] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:17:38,192] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:17:38,290] INFO: Loaded model from model.pkl
+[2025-10-25 14:17:38,291] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:17:38,294] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:28:34,368] INFO: Loaded model from model.pkl
+[2025-10-25 14:28:34,370] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:28:34,374] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:28:34,389] INFO: Loaded model from model.pkl
+[2025-10-25 14:28:34,390] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:28:34,396] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:28:34,417] INFO: Loaded model from model.pkl
+[2025-10-25 14:28:34,418] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:28:34,425] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:29:16,920] INFO: Loaded model from model.pkl
+[2025-10-25 14:29:16,921] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:29:16,925] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:29:16,945] INFO: Loaded model from model.pkl
+[2025-10-25 14:29:16,946] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:29:16,951] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:29:16,988] INFO: Loaded model from model.pkl
+[2025-10-25 14:29:16,989] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:29:16,994] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:29:21,809] INFO: Loaded model from model.pkl
+[2025-10-25 14:29:21,811] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:29:21,816] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:29:21,845] INFO: Loaded model from model.pkl
+[2025-10-25 14:29:21,846] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:29:21,852] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:29:21,919] INFO: Loaded model from model.pkl
+[2025-10-25 14:29:21,921] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:29:21,926] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:40:00,291] INFO: Loaded model from model.pkl
+[2025-10-25 14:40:00,292] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:40:00,297] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:40:00,308] INFO: Loaded model from model.pkl
+[2025-10-25 14:40:00,309] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:40:00,313] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:40:00,368] INFO: Loaded model from model.pkl
+[2025-10-25 14:40:00,370] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:40:00,374] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:00,232] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:00,233] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:00,234] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:00,238] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:00,238] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:00,761] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:00,762] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:00,766] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:40,680] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:40,681] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:40,685] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:40,723] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:40,724] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:40,731] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:40,770] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:40,771] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:40,777] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:54,563] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:54,564] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:54,571] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:54,622] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:54,623] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:54,628] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:58:55,540] INFO: Loaded model from model.pkl
+[2025-10-25 14:58:55,541] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:58:55,547] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:00,587] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:00,587] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:00,591] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:00,734] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:00,734] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:00,735] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:00,735] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:00,739] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:00,739] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:07,613] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:07,613] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:07,618] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:07,747] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:07,748] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:07,748] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:07,751] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:07,751] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:20,402] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:20,403] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:20,409] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:21,202] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:21,202] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:21,208] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:21,445] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:21,445] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:21,450] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:36,414] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:36,414] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:36,418] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:37,057] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:37,058] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:37,063] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:37,279] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:37,280] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:37,284] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:55,576] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:55,577] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:55,582] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:56,133] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:56,134] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:56,138] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:56,451] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:56,453] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:56,460] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 14:59:59,868] INFO: Loaded model from model.pkl
+[2025-10-25 14:59:59,869] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 14:59:59,873] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:00,358] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:00,359] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:00,363] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:11,181] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:11,182] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:11,185] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:11,206] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:11,207] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:11,217] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:11,741] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:11,741] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:11,745] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:23,298] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:23,299] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:23,302] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:23,906] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:23,906] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:23,910] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:23,963] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:23,964] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:23,969] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:35,352] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:35,353] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:35,356] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:35,357] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:35,357] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:35,362] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:35,697] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:35,698] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:35,702] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:47,103] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:47,104] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:47,106] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:47,109] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:47,113] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:00:47,249] INFO: Loaded model from model.pkl
+[2025-10-25 15:00:47,250] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:00:47,254] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:02:26,617] INFO: Loaded model from model.pkl
+[2025-10-25 15:02:26,619] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:02:26,623] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:02:26,626] INFO: Loaded model from model.pkl
+[2025-10-25 15:02:26,628] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:02:26,629] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:02:26,632] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:02:26,633] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:02:41,702] INFO: Loaded model from model.pkl
+[2025-10-25 15:02:41,703] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:02:41,709] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:02:41,710] INFO: Loaded model from model.pkl
+[2025-10-25 15:02:41,711] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:02:41,717] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:02:41,757] INFO: Loaded model from model.pkl
+[2025-10-25 15:02:41,758] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:02:41,762] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:15:08,708] INFO: Loaded model from model.pkl
+[2025-10-25 15:15:08,709] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:15:08,714] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:15:11,910] INFO: Loaded model from model.pkl
+[2025-10-25 15:15:11,912] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:15:11,916] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:15:44,265] INFO: Received upload_single request
+[2025-10-25 15:15:44,350] INFO: Saving uploaded file to: uploads\20251025151544_db4e88b9_02030004_still.xlsx
+[2025-10-25 15:15:44,391] DEBUG: Reading Excel: uploads\20251025151544_db4e88b9_02030004_still.xlsx
+[2025-10-25 15:16:03,290] DEBUG: Numeric columns found: [3361023, 3373407, 3394998]
+[2025-10-25 15:16:03,297] DEBUG: Computed means: [3324276.78299095 3344186.42844673 3352770.40998019] for channels ['3361023', '3373407', '3394998']
+[2025-10-25 15:16:03,302] DEBUG: Feature vector (means): [3324276.78299095, 3344186.4284467283, 3352770.409980194]
+[2025-10-25 15:16:03,302] DEBUG: Feature array shape: (1, 12)
+[2025-10-25 15:16:03,304] ERROR: Exception in upload_single: X has 12 features, but StandardScaler is expecting 3 features as input.
+Traceback (most recent call last):
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\app.py", line 157, in upload_single
+    pred = int(model.predict(X)[0])
+               ~~~~~~~~~~~~~^^^
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\pipeline.py", line 788, in predict
+    Xt = transform.transform(Xt)
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 1075, in transform
+    X = validate_data(
+        self,
+    ...<6 lines>...
+        ensure_all_finite="allow-nan",
+    )
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2975, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2839, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 12 features, but StandardScaler is expecting 3 features as input.
+[2025-10-25 15:16:31,780] INFO: Received upload_single request
+[2025-10-25 15:16:31,864] INFO: Saving uploaded file to: uploads\20251025151631_b79cd937_02030021_still.xlsx
+[2025-10-25 15:16:31,913] DEBUG: Reading Excel: uploads\20251025151631_b79cd937_02030021_still.xlsx
+[2025-10-25 15:16:50,764] DEBUG: Numeric columns found: [2414559, 2619715, 2705717]
+[2025-10-25 15:16:50,772] DEBUG: Computed means: [1547368.42066303 1510034.63172749 1737906.44021371] for channels ['2414559', '2619715', '2705717']
+[2025-10-25 15:16:50,776] DEBUG: Feature vector (means): [1547368.4206630317, 1510034.631727491, 1737906.4402137143]
+[2025-10-25 15:16:50,777] DEBUG: Feature array shape: (1, 12)
+[2025-10-25 15:16:50,779] ERROR: Exception in upload_single: X has 12 features, but StandardScaler is expecting 3 features as input.
+Traceback (most recent call last):
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\app.py", line 157, in upload_single
+    pred = int(model.predict(X)[0])
+               ~~~~~~~~~~~~~^^^
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\pipeline.py", line 788, in predict
+    Xt = transform.transform(Xt)
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 1075, in transform
+    X = validate_data(
+        self,
+    ...<6 lines>...
+        ensure_all_finite="allow-nan",
+    )
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2975, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2839, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 12 features, but StandardScaler is expecting 3 features as input.
+[2025-10-25 15:28:36,472] INFO: Loaded model from model.pkl
+[2025-10-25 15:28:36,474] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:28:36,478] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:28:39,540] INFO: Loaded model from model.pkl
+[2025-10-25 15:28:39,541] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:28:39,546] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:28:48,013] INFO: Received upload_single request
+[2025-10-25 15:28:48,208] INFO: Saving uploaded file to: uploads\20251025152848_e9437fc3_02010006_still.xlsx
+[2025-10-25 15:28:48,256] DEBUG: Reading Excel: uploads\20251025152848_e9437fc3_02010006_still.xlsx
+[2025-10-25 15:29:06,103] DEBUG: Numeric columns found: [4691679, 4770101, 4677789]
+[2025-10-25 15:29:06,108] DEBUG: Computed means: [4238314.15407325 4263656.25284691 4151114.80961764] for channels ['4691679', '4770101', '4677789']
+[2025-10-25 15:29:06,114] DEBUG: Feature vector (means): [4238314.154073249, 4263656.252846912, 4151114.8096176363]
+[2025-10-25 15:29:06,127] DEBUG: Feature array shape: (1, 12)
+[2025-10-25 15:29:06,130] ERROR: Exception in upload_single: X has 12 features, but StandardScaler is expecting 3 features as input.
+Traceback (most recent call last):
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\app.py", line 157, in upload_single
+    pred = int(model.predict(X)[0])
+               ~~~~~~~~~~~~~^^^
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\pipeline.py", line 788, in predict
+    Xt = transform.transform(Xt)
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 1075, in transform
+    X = validate_data(
+        self,
+    ...<6 lines>...
+        ensure_all_finite="allow-nan",
+    )
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2975, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ANKIT\OneDrive\Documents\depression_detection_project\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2839, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 12 features, but StandardScaler is expecting 3 features as input.
+[2025-10-25 15:38:46,978] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:46,979] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:46,982] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:47,000] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:47,001] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:47,003] INFO: Loaded model from model.pkl
+127.0.0.1:5000
+[2025-10-25 15:38:47,004] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:47,007] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:47,200] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:47,201] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:47,203] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:49,614] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:49,615] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:49,618] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:50,179] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:50,180] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:50,182] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:50,200] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:50,201] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:50,203] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:50,412] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:50,412] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:50,414] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:55,583] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:55,584] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:55,587] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:56,530] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:56,531] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:56,531] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:56,532] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:56,533] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:56,535] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:56,577] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:56,577] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:56,579] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:59,308] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:59,309] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:59,311] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:59,863] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:59,863] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:59,866] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:38:59,875] INFO: Loaded model from model.pkl
+[2025-10-25 15:38:59,876] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:38:59,878] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:00,029] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:00,030] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:00,032] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:04,646] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:04,646] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:04,650] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:05,182] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:05,183] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:05,185] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:05,204] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:05,204] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:05,207] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:05,295] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:05,295] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:05,297] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:08,378] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:08,379] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:08,380] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:08,381] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:08,381] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:08,383] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:08,461] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:08,462] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:08,464] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:08,679] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:08,680] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:08,682] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:13,552] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:13,552] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:13,554] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:13,559] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:13,560] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:13,563] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:13,598] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:13,598] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:13,600] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:13,820] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:13,820] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:13,822] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:16,585] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:16,585] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:16,588] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:16,590] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:16,591] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:16,593] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:16,615] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:16,615] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:16,617] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:17,458] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:17,458] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:17,460] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:52,501] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:52,501] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:52,503] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:39:53,815] INFO: Loaded model from model.pkl
+[2025-10-25 15:39:53,816] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 15:39:53,818] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 15:40:05,770] INFO: Received upload_single request
+[2025-10-25 15:40:05,795] INFO: Saving uploaded file to: uploads\20251025154005_9fda6ba5_02010006_still.xlsx
+[2025-10-25 15:40:05,824] DEBUG: Reading Excel: uploads\20251025154005_9fda6ba5_02010006_still.xlsx
+[2025-10-25 15:40:15,341] DEBUG: Numeric columns found: [4691679, 4770101, 4677789]
+[2025-10-25 15:40:15,345] DEBUG: Computed means: [4238314.15407325 4263656.25284691 4151114.80961764] for channels ['4691679', '4770101', '4677789']
+[2025-10-25 15:40:15,347] DEBUG: Feature vector (means): [4238314.154073249, 4263656.252846912, 4151114.8096176363]
+[2025-10-25 15:40:15,347] DEBUG: Feature array shape: (1, 12)
+[2025-10-25 15:40:15,348] DEBUG: Predict_proba: 0.8875713614273885
+[2025-10-25 15:40:15,348] INFO: Prediction: MDD (raw=1)
+[2025-10-25 15:40:15,354] INFO: Saved result to: results\result_20251025154005_9fda6ba5.csv
+[2025-10-25 15:40:38,660] INFO: Received upload_single request
+[2025-10-25 15:40:38,682] INFO: Saving uploaded file to: uploads\20251025154038_eb025006_02030021_still.xlsx
+[2025-10-25 15:40:38,704] DEBUG: Reading Excel: uploads\20251025154038_eb025006_02030021_still.xlsx
+[2025-10-25 15:40:48,145] DEBUG: Numeric columns found: [2414559, 2619715, 2705717]
+[2025-10-25 15:40:48,149] DEBUG: Computed means: [1547368.42066303 1510034.63172749 1737906.44021371] for channels ['2414559', '2619715', '2705717']
+[2025-10-25 15:40:48,151] DEBUG: Feature vector (means): [1547368.4206630317, 1510034.631727491, 1737906.4402137143]
+[2025-10-25 15:40:48,151] DEBUG: Feature array shape: (1, 12)
+[2025-10-25 15:40:48,153] DEBUG: Predict_proba: 0.06351902318703279
+[2025-10-25 15:40:48,153] INFO: Prediction: HC (raw=0)
+[2025-10-25 15:40:48,156] INFO: Saved result to: results\result_20251025154038_eb025006.csv
+[2025-10-25 15:45:12,645] INFO: Received upload_single request
+[2025-10-25 15:45:12,669] INFO: Saving uploaded file to: uploads\20251025154512_cc676736_02010005_still.xlsx
+[2025-10-25 15:45:12,694] DEBUG: Reading Excel: uploads\20251025154512_cc676736_02010005_still.xlsx
+[2025-10-25 15:45:21,230] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 15:45:21,234] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 15:45:21,235] DEBUG: Feature vector (means): [4536625.939729898, 4778846.192831038, 4639431.625363441]
+[2025-10-25 15:45:21,235] DEBUG: Feature array shape: (1, 12)
+[2025-10-25 15:45:21,237] DEBUG: Predict_proba: 0.9281926116079107
+[2025-10-25 15:45:21,237] INFO: Prediction: MDD (raw=1)
+[2025-10-25 15:45:21,239] INFO: Saved result to: results\result_20251025154512_cc676736.csv
+[2025-10-25 16:10:07,863] INFO: Loaded model from model.pkl
+[2025-10-25 16:10:07,865] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 16:10:07,867] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 16:10:09,496] INFO: Loaded model from model.pkl
+[2025-10-25 16:10:09,497] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 16:10:09,500] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 16:10:34,316] INFO: Received upload_single request
+[2025-10-25 16:10:34,395] INFO: Saving uploaded file to: uploads\20251025161034_41725fc7_02010005_still.xlsx
+[2025-10-25 16:10:34,414] DEBUG: Reading Excel: uploads\20251025161034_41725fc7_02010005_still.xlsx
+[2025-10-25 16:10:45,502] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 16:10:45,509] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 16:11:07,551] DEBUG: Reading Excel: uploads\20251025161034_41725fc7_02010005_still.xlsx
+[2025-10-25 16:11:09,903] DEBUG: Reading Excel: uploads\20251025161034_41725fc7_02010005_still.xlsx
+[2025-10-25 16:11:22,433] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 16:11:22,443] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 16:11:22,511] INFO: Saved result to: results\result_20251025161122_bf5231b4.csv
+[2025-10-25 16:11:25,369] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-25 16:11:25,372] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-25 16:11:25,377] INFO: Saved result to: results\result_20251025161125_f6086659.csv
+[2025-10-25 16:11:39,362] INFO: Received upload_single request
+[2025-10-25 16:11:39,439] INFO: Saving uploaded file to: uploads\20251025161139_6b9d5bc8_02010001_still.xlsx
+[2025-10-25 16:11:39,472] DEBUG: Reading Excel: uploads\20251025161139_6b9d5bc8_02010001_still.xlsx
+[2025-10-25 16:11:49,292] DEBUG: Numeric columns found: [4297790, 4797719, 3754634]
+[2025-10-25 16:11:49,296] DEBUG: Computed means: [2805278.382231   3170684.11985192 2044614.68893978] for channels ['4297790', '4797719', '3754634']
+[2025-10-25 16:12:28,352] DEBUG: Reading Excel: uploads\20251025161139_6b9d5bc8_02010001_still.xlsx
+[2025-10-25 16:12:36,716] DEBUG: Numeric columns found: [4297790, 4797719, 3754634]
+[2025-10-25 16:12:36,720] DEBUG: Computed means: [2805278.382231   3170684.11985192 2044614.68893978] for channels ['4297790', '4797719', '3754634']
+[2025-10-25 16:12:36,725] INFO: Saved result to: results\result_20251025161236_bed2c8f5.csv
+[2025-10-25 16:13:17,945] INFO: Loaded model from model.pkl
+[2025-10-25 16:13:17,945] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 16:13:17,947] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 18:01:32,649] INFO: Loaded model from model.pkl
+[2025-10-25 18:01:32,652] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 18:01:32,657] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 18:01:35,998] INFO: Loaded model from model.pkl
+[2025-10-25 18:01:35,999] INFO: Model loaded. classes_: [0 1]
+[2025-10-25 18:01:36,004] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-25 18:02:04,895] INFO: Received upload_single request
+[2025-10-25 18:02:05,078] INFO: Saving uploaded file to: uploads\20251025180205_17f1d8dd_02010003_still.xlsx
+[2025-10-25 18:02:05,126] DEBUG: Reading Excel: uploads\20251025180205_17f1d8dd_02010003_still.xlsx
+[2025-10-25 18:02:27,182] DEBUG: Numeric columns found: [2286463, 2189118, 1888561]
+[2025-10-25 18:02:27,192] DEBUG: Computed means: [1343902.45991355 1196011.32805736 1023709.46500414] for channels ['2286463', '2189118', '1888561']
+[2025-10-25 18:02:45,748] INFO: Received upload_single request
+[2025-10-25 18:02:45,970] INFO: Saving uploaded file to: uploads\20251025180245_18ecb184_02010008_still.xlsx
+[2025-10-25 18:02:46,015] DEBUG: Reading Excel: uploads\20251025180245_18ecb184_02010008_still.xlsx
+[2025-10-25 18:03:03,967] DEBUG: Numeric columns found: [4731739, 4815316, 4727047]
+[2025-10-25 18:03:03,974] DEBUG: Computed means: [4207069.21671686 4212771.53250371 4159028.28906328] for channels ['4731739', '4815316', '4727047']
+[2025-10-25 18:03:10,434] DEBUG: Reading Excel: uploads\20251025180245_18ecb184_02010008_still.xlsx
+[2025-10-25 18:03:15,393] DEBUG: Reading Excel: uploads\20251025180245_18ecb184_02010008_still.xlsx
+[2025-10-25 18:03:40,769] DEBUG: Numeric columns found: [4731739, 4815316, 4727047]
+[2025-10-25 18:03:40,792] DEBUG: Computed means: [4207069.21671686 4212771.53250371 4159028.28906328] for channels ['4731739', '4815316', '4727047']
+[2025-10-25 18:03:40,912] INFO: Saved result to: results\result_20251025180340_a3b62619.csv
+[2025-10-25 18:03:45,657] DEBUG: Numeric columns found: [4731739, 4815316, 4727047]
+[2025-10-25 18:03:45,662] DEBUG: Computed means: [4207069.21671686 4212771.53250371 4159028.28906328] for channels ['4731739', '4815316', '4727047']
+[2025-10-25 18:03:45,675] INFO: Saved result to: results\result_20251025180345_d4a58d6f.csv
+[2025-10-26 13:05:02,759] INFO: Loaded model from model.pkl
+[2025-10-26 13:05:02,770] INFO: Model loaded. classes_: [0 1]
+[2025-10-26 13:05:02,783] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-26 13:05:02,775] INFO: Loaded model from model.pkl
+[2025-10-26 13:05:02,798] INFO: Model loaded. classes_: [0 1]
+[2025-10-26 13:05:02,821] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-26 13:05:06,179] INFO: Loaded model from model.pkl
+[2025-10-26 13:05:06,180] INFO: Model loaded. classes_: [0 1]
+[2025-10-26 13:05:06,185] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-26 13:05:06,203] INFO: Loaded model from model.pkl
+[2025-10-26 13:05:06,204] INFO: Model loaded. classes_: [0 1]
+[2025-10-26 13:05:06,209] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-26 13:05:15,855] INFO: Received upload_single request
+[2025-10-26 13:05:16,039] INFO: Saving uploaded file to: uploads\20251026130516_c1ac8812_02020022_still.xlsx
+[2025-10-26 13:05:16,086] DEBUG: Reading Excel: uploads\20251026130516_c1ac8812_02020022_still.xlsx
+[2025-10-26 13:05:37,897] DEBUG: Numeric columns found: [3612504, 3519911, 3532925]
+[2025-10-26 13:05:37,910] DEBUG: Computed means: [29543598.31115717  3602114.78755224  3505384.65156183] for channels ['3612504', '3519911', '3532925']
+[2025-10-26 13:06:18,537] DEBUG: Reading Excel: uploads\20251026130516_c1ac8812_02020022_still.xlsx
+[2025-10-26 13:06:36,309] DEBUG: Numeric columns found: [3612504, 3519911, 3532925]
+[2025-10-26 13:06:36,315] DEBUG: Computed means: [29543598.31115717  3602114.78755224  3505384.65156183] for channels ['3612504', '3519911', '3532925']
+[2025-10-26 13:06:36,380] INFO: Saved result to: results\result_20251026130636_74d8a862.csv
+[2025-10-26 13:11:33,215] INFO: Received upload_single request
+[2025-10-26 13:11:33,450] INFO: Saving uploaded file to: uploads\20251026131133_6241c6e4_02010025_still.xlsx
+[2025-10-26 13:11:33,502] DEBUG: Reading Excel: uploads\20251026131133_6241c6e4_02010025_still.xlsx
+[2025-10-26 13:11:52,485] DEBUG: Numeric columns found: [4458154, 3917976, 4769140]
+[2025-10-26 13:11:52,492] DEBUG: Computed means: [1.68983703e+08 1.76972650e+08 1.62686170e+08] for channels ['4458154', '3917976', '4769140']
+[2025-10-26 13:12:11,327] DEBUG: Reading Excel: uploads\20251026131133_6241c6e4_02010025_still.xlsx
+[2025-10-26 13:12:30,032] DEBUG: Numeric columns found: [4458154, 3917976, 4769140]
+[2025-10-26 13:12:30,037] DEBUG: Computed means: [1.68983703e+08 1.76972650e+08 1.62686170e+08] for channels ['4458154', '3917976', '4769140']
+[2025-10-26 13:12:30,048] INFO: Saved result to: results\result_20251026131230_8dbc4360.csv
+[2025-10-26 13:18:53,931] INFO: Received upload_single request
+[2025-10-26 13:18:54,117] INFO: Saving uploaded file to: uploads\20251026131854_a821ecfa_02010005_still.xlsx
+[2025-10-26 13:18:54,164] DEBUG: Reading Excel: uploads\20251026131854_a821ecfa_02010005_still.xlsx
+[2025-10-26 13:19:11,199] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-26 13:19:11,205] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-26 13:19:15,369] DEBUG: Reading Excel: uploads\20251026131854_a821ecfa_02010005_still.xlsx
+[2025-10-26 13:19:16,699] DEBUG: Reading Excel: uploads\20251026131854_a821ecfa_02010005_still.xlsx
+[2025-10-26 13:19:18,469] DEBUG: Reading Excel: uploads\20251026131854_a821ecfa_02010005_still.xlsx
+[2025-10-26 13:20:03,319] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-26 13:20:03,360] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-26 13:20:03,396] INFO: Saved result to: results\result_20251026132003_3c5daa57.csv
+[2025-10-26 13:20:07,852] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-26 13:20:07,876] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-26 13:20:07,968] INFO: Saved result to: results\result_20251026132007_e90c2541.csv
+[2025-10-26 13:20:08,655] DEBUG: Numeric columns found: [5047133, 5388860, 5344878]
+[2025-10-26 13:20:08,662] DEBUG: Computed means: [4536625.9397299  4778846.19283104 4639431.62536344] for channels ['5047133', '5388860', '5344878']
+[2025-10-26 13:20:08,688] INFO: Saved result to: results\result_20251026132008_e4dcf71b.csv
+[2025-10-26 13:25:24,544] INFO: Received upload_single request
+[2025-10-26 13:25:24,745] INFO: Saving uploaded file to: uploads\20251026132524_400110f9_02010038_still.xlsx
+[2025-10-26 13:25:24,794] DEBUG: Reading Excel: uploads\20251026132524_400110f9_02010038_still.xlsx
+[2025-10-26 13:25:42,647] DEBUG: Numeric columns found: [5722414, 6869039, 4620414]
+[2025-10-26 13:25:42,654] DEBUG: Computed means: [5785096.54829206 6835639.52083115 4763751.66755782] for channels ['5722414', '6869039', '4620414']
+[2025-10-26 13:26:12,639] DEBUG: Reading Excel: uploads\20251026132524_400110f9_02010038_still.xlsx
+[2025-10-26 13:26:15,161] DEBUG: Reading Excel: uploads\20251026132524_400110f9_02010038_still.xlsx
+[2025-10-26 13:26:42,559] DEBUG: Numeric columns found: [5722414, 6869039, 4620414]
+[2025-10-26 13:26:42,590] DEBUG: Computed means: [5785096.54829206 6835639.52083115 4763751.66755782] for channels ['5722414', '6869039', '4620414']
+[2025-10-26 13:26:42,625] INFO: Saved result to: results\result_20251026132642_5f1fa48e.csv
+[2025-10-26 13:26:46,041] DEBUG: Numeric columns found: [5722414, 6869039, 4620414]
+[2025-10-26 13:26:46,048] DEBUG: Computed means: [5785096.54829206 6835639.52083115 4763751.66755782] for channels ['5722414', '6869039', '4620414']
+[2025-10-26 13:26:46,062] INFO: Saved result to: results\result_20251026132646_7d62ef3d.csv
+[2025-10-26 13:27:43,201] DEBUG: Reading Excel: uploads\20251026132524_400110f9_02010038_still.xlsx
+[2025-10-26 13:27:49,665] DEBUG: Numeric columns found: [5722414, 6869039, 4620414]
+[2025-10-26 13:27:49,668] DEBUG: Computed means: [5785096.54829206 6835639.52083115 4763751.66755782] for channels ['5722414', '6869039', '4620414']
+[2025-10-26 13:27:49,673] INFO: Saved result to: results\result_20251026132749_5d54af7d.csv
+[2025-10-26 13:28:32,916] INFO: Loaded model from model.pkl
+[2025-10-26 13:28:32,917] INFO: Model loaded. classes_: [0 1]
+[2025-10-26 13:28:32,919] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-26 13:28:34,248] INFO: Loaded model from model.pkl
+[2025-10-26 13:28:34,248] INFO: Model loaded. classes_: [0 1]
+[2025-10-26 13:28:34,250] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-26 13:31:42,478] INFO: Received upload_single request
+[2025-10-26 13:31:42,547] INFO: Saving uploaded file to: uploads\20251026133142_58d4ade8_02010006_still.xlsx
+[2025-10-26 13:31:42,561] DEBUG: Reading Excel: uploads\20251026133142_58d4ade8_02010006_still.xlsx
+[2025-10-26 13:31:50,839] DEBUG: Numeric columns found: [4691679, 4770101, 4677789]
+[2025-10-26 13:31:50,842] DEBUG: Computed means: [4238314.15407325 4263656.25284691 4151114.80961764] for channels ['4691679', '4770101', '4677789']
+[2025-10-26 13:31:57,311] DEBUG: Reading Excel: uploads\20251026133142_58d4ade8_02010006_still.xlsx
+[2025-10-26 13:32:07,301] DEBUG: Numeric columns found: [4691679, 4770101, 4677789]
+[2025-10-26 13:32:07,304] DEBUG: Computed means: [4238314.15407325 4263656.25284691 4151114.80961764] for channels ['4691679', '4770101', '4677789']
+[2025-10-26 13:32:07,309] INFO: Saved result to: results\result_20251026133207_d3482e9e.csv
+[2025-10-26 13:33:34,612] INFO: Received upload_single request
+[2025-10-26 13:33:34,693] INFO: Saving uploaded file to: uploads\20251026133334_568b1774_02010007_still.xlsx
+[2025-10-26 13:33:34,707] DEBUG: Reading Excel: uploads\20251026133334_568b1774_02010007_still.xlsx
+[2025-10-26 13:33:37,916] INFO: Received upload_single request
+[2025-10-26 13:33:38,286] INFO: Saving uploaded file to: uploads\20251026133338_38cea277_02010007_still.xlsx
+[2025-10-26 13:33:39,394] DEBUG: Reading Excel: uploads\20251026133338_38cea277_02010007_still.xlsx
+[2025-10-26 13:33:46,189] DEBUG: Numeric columns found: [4214289, 4973427, 5121910]
+[2025-10-26 13:33:46,196] DEBUG: Computed means: [4032361.37849715 4815686.75773268 5100301.41713851] for channels ['4214289', '4973427', '5121910']
+[2025-10-26 13:33:52,223] DEBUG: Numeric columns found: [4214289, 4973427, 5121910]
+[2025-10-26 13:33:52,226] DEBUG: Computed means: [4032361.37849715 4815686.75773268 5100301.41713851] for channels ['4214289', '4973427', '5121910']
+[2025-10-26 13:36:37,158] INFO: Received upload_single request
+[2025-10-26 13:36:37,242] INFO: Saving uploaded file to: uploads\20251026133637_35a10e19_02010010_still.xlsx
+[2025-10-26 13:36:37,256] DEBUG: Reading Excel: uploads\20251026133637_35a10e19_02010010_still.xlsx
+[2025-10-26 13:36:46,570] DEBUG: Numeric columns found: [4731263, 4454523, 4012398]
+[2025-10-26 13:36:46,573] DEBUG: Computed means: [4521385.88433133 4103106.88515009 3968461.90627486] for channels ['4731263', '4454523', '4012398']
+[2025-10-26 13:36:50,374] DEBUG: Reading Excel: uploads\20251026133637_35a10e19_02010010_still.xlsx
+[2025-10-26 13:36:52,158] DEBUG: Reading Excel: uploads\20251026133637_35a10e19_02010010_still.xlsx
+[2025-10-26 13:37:04,624] DEBUG: Numeric columns found: [4731263, 4454523, 4012398]
+[2025-10-26 13:37:04,635] DEBUG: Computed means: [4521385.88433133 4103106.88515009 3968461.90627486] for channels ['4731263', '4454523', '4012398']
+[2025-10-26 13:37:04,659] INFO: Saved result to: results\result_20251026133704_53323ce5.csv
+[2025-10-26 13:37:06,445] DEBUG: Numeric columns found: [4731263, 4454523, 4012398]
+[2025-10-26 13:37:06,449] DEBUG: Computed means: [4521385.88433133 4103106.88515009 3968461.90627486] for channels ['4731263', '4454523', '4012398']
+[2025-10-26 13:37:06,454] INFO: Saved result to: results\result_20251026133706_6e9b00a4.csv
+[2025-10-26 13:58:26,247] INFO: Received upload_single request
+[2025-10-26 13:58:26,461] INFO: Saving uploaded file to: uploads\20251026135826_d1a866bc_02020011_still.xlsx
+[2025-10-26 13:58:26,503] DEBUG: Reading Excel: uploads\20251026135826_d1a866bc_02020011_still.xlsx
+[2025-10-26 13:58:43,027] DEBUG: Numeric columns found: [4001142, 4128863, 4001122]
+[2025-10-26 13:58:43,037] DEBUG: Computed means: [3276992.56845116 3339385.64809206 3281595.36568349] for channels ['4001142', '4128863', '4001122']
+[2025-10-26 13:58:58,099] DEBUG: Reading Excel: uploads\20251026135826_d1a866bc_02020011_still.xlsx
+[2025-10-26 13:59:13,408] DEBUG: Numeric columns found: [4001142, 4128863, 4001122]
+[2025-10-26 13:59:13,415] DEBUG: Computed means: [3276992.56845116 3339385.64809206 3281595.36568349] for channels ['4001142', '4128863', '4001122']
+[2025-10-26 13:59:13,425] INFO: Saved result to: results\result_20251026135913_68930ffe.csv
+[2025-10-27 01:39:59,419] INFO: Loaded model from model.pkl
+[2025-10-27 01:39:59,420] INFO: Model loaded. classes_: [0 1]
+[2025-10-27 01:39:59,426] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-27 01:40:02,878] INFO: Loaded model from model.pkl
+[2025-10-27 01:40:02,879] INFO: Model loaded. classes_: [0 1]
+[2025-10-27 01:40:02,884] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-27 01:41:06,762] INFO: Received upload_single request
+[2025-10-27 01:41:06,978] INFO: Saving uploaded file to: uploads\20251027014106_43d9c665_02010018_still.xlsx
+[2025-10-27 01:41:07,033] DEBUG: Reading Excel: uploads\20251027014106_43d9c665_02010018_still.xlsx
+[2025-10-27 01:41:26,427] DEBUG: Numeric columns found: [4719495, 4149009, 4326498]
+[2025-10-27 01:41:26,432] DEBUG: Computed means: [3516676.26689084 3014476.20015926 3800912.78977249] for channels ['4719495', '4149009', '4326498']
+[2025-10-30 14:26:33,328] INFO: Loaded model from model.pkl
+[2025-10-30 14:26:33,330] INFO: Model loaded. classes_: [0 1]
+[2025-10-30 14:26:33,337] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-30 14:26:37,144] INFO: Loaded model from model.pkl
+[2025-10-30 14:26:37,145] INFO: Model loaded. classes_: [0 1]
+[2025-10-30 14:26:37,150] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-10-30 14:56:38,599] INFO: Received upload_single request
+[2025-10-30 14:56:38,828] INFO: Saving uploaded file to: uploads\20251030145638_ddc1530a_02030010_still.xlsx
+[2025-10-30 14:56:38,879] DEBUG: Reading Excel: uploads\20251030145638_ddc1530a_02030010_still.xlsx
+[2025-10-30 14:57:02,596] DEBUG: Numeric columns found: [4260416, 4490303, 4260506]
+[2025-10-30 14:57:02,607] DEBUG: Computed means: [4126183.92751507 4254318.88252806 4178800.36548732] for channels ['4260416', '4490303', '4260506']
+[2025-10-30 14:58:25,988] DEBUG: Reading Excel: uploads\20251030145638_ddc1530a_02030010_still.xlsx
+[2025-10-30 14:58:44,160] DEBUG: Numeric columns found: [4260416, 4490303, 4260506]
+[2025-10-30 14:58:44,165] DEBUG: Computed means: [4126183.92751507 4254318.88252806 4178800.36548732] for channels ['4260416', '4490303', '4260506']
+[2025-10-30 14:58:44,229] INFO: Saved result to: results\result_20251030145844_644578b7.csv
+[2025-11-05 10:51:54,795] INFO: Loaded model from model.pkl
+[2025-11-05 10:51:54,797] INFO: Model loaded. classes_: [0 1]
+[2025-11-05 10:51:54,801] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-11-05 10:51:58,345] INFO: Loaded model from model.pkl
+[2025-11-05 10:51:58,346] INFO: Model loaded. classes_: [0 1]
+[2025-11-05 10:51:58,351] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-11-05 10:52:17,330] INFO: Received upload_single request
+[2025-11-05 10:52:17,527] INFO: Saving uploaded file to: uploads\20251105105217_451e9513_02030021_still.xlsx
+[2025-11-05 10:52:17,576] DEBUG: Reading Excel: uploads\20251105105217_451e9513_02030021_still.xlsx
+[2025-11-05 10:52:41,242] DEBUG: Numeric columns found: [2414559, 2619715, 2705717]
+[2025-11-05 10:52:41,254] DEBUG: Computed means: [1547368.42066303 1510034.63172749 1737906.44021371] for channels ['2414559', '2619715', '2705717']
+[2025-11-05 10:53:06,028] INFO: Received upload_single request
+[2025-11-05 10:53:06,201] INFO: Saving uploaded file to: uploads\20251105105306_f89afc13_02030005_still.xlsx
+[2025-11-05 10:53:06,249] DEBUG: Reading Excel: uploads\20251105105306_f89afc13_02030005_still.xlsx
+[2025-11-05 10:53:26,337] DEBUG: Numeric columns found: [2931441, 2278092, 2346705]
+[2025-11-05 10:53:26,346] DEBUG: Computed means: [2820650.20607695 2148756.87077031 2298218.72748328] for channels ['2931441', '2278092', '2346705']
+[2025-11-05 10:53:42,143] INFO: Received upload_single request
+[2025-11-05 10:53:42,318] INFO: Saving uploaded file to: uploads\20251105105342_38e8c7ba_02010008_still.xlsx
+[2025-11-05 10:53:42,365] DEBUG: Reading Excel: uploads\20251105105342_38e8c7ba_02010008_still.xlsx
+[2025-11-05 10:54:00,398] DEBUG: Numeric columns found: [4731739, 4815316, 4727047]
+[2025-11-05 10:54:00,405] DEBUG: Computed means: [4207069.21671686 4212771.53250371 4159028.28906328] for channels ['4731739', '4815316', '4727047']
+[2025-11-05 10:54:14,648] INFO: Received upload_single request
+[2025-11-05 10:54:14,853] INFO: Saving uploaded file to: uploads\20251105105414_ff634b83_02010021_still.xlsx
+[2025-11-05 10:54:14,894] DEBUG: Reading Excel: uploads\20251105105414_ff634b83_02010021_still.xlsx
+[2025-11-05 10:54:33,481] DEBUG: Numeric columns found: [1453173, 1174762, 1177403]
+[2025-11-05 10:54:33,486] DEBUG: Computed means: [977433.63556665 880301.50033984 901808.30292722] for channels ['1453173', '1174762', '1177403']
+[2025-11-05 10:54:36,713] DEBUG: Reading Excel: uploads\20251105105414_ff634b83_02010021_still.xlsx
+[2025-11-05 10:54:54,352] DEBUG: Numeric columns found: [1453173, 1174762, 1177403]
+[2025-11-05 10:54:54,358] DEBUG: Computed means: [977433.63556665 880301.50033984 901808.30292722] for channels ['1453173', '1174762', '1177403']
+[2025-11-05 10:54:54,415] INFO: Saved result to: results\result_20251105105454_63ef9577.csv
+[2025-11-05 12:25:34,195] INFO: Received upload_single request
+[2025-11-05 12:25:34,389] INFO: Saving uploaded file to: uploads\20251105122534_b9b631f2_02010006_still.xlsx
+[2025-11-05 12:25:34,438] DEBUG: Reading Excel: uploads\20251105122534_b9b631f2_02010006_still.xlsx
+[2025-11-05 12:25:53,684] DEBUG: Numeric columns found: [4691679, 4770101, 4677789]
+[2025-11-05 12:25:53,699] DEBUG: Computed means: [4238314.15407325 4263656.25284691 4151114.80961764] for channels ['4691679', '4770101', '4677789']
+[2025-11-05 12:26:16,127] DEBUG: Reading Excel: uploads\20251105122534_b9b631f2_02010006_still.xlsx
+[2025-11-05 12:26:33,603] DEBUG: Numeric columns found: [4691679, 4770101, 4677789]
+[2025-11-05 12:26:33,610] DEBUG: Computed means: [4238314.15407325 4263656.25284691 4151114.80961764] for channels ['4691679', '4770101', '4677789']
+[2025-11-05 12:26:33,624] INFO: Saved result to: results\result_20251105122633_1956c0a1.csv
+[2025-11-11 23:12:10,779] INFO: Loaded model from model.pkl
+[2025-11-11 23:12:10,781] INFO: Model loaded. classes_: [0 1]
+[2025-11-11 23:12:10,783] INFO: Starting Flask app on http://127.0.0.1:5000
+[2025-11-11 23:12:12,376] INFO: Loaded model from model.pkl
+[2025-11-11 23:12:12,377] INFO: Model loaded. classes_: [0 1]
+[2025-11-11 23:12:12,379] INFO: Starting Flask app on http://127.0.0.1:5000
